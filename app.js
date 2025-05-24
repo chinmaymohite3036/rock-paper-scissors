@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const startBtn = document.getElementById("start-btn");
 const welcomeScreen = document.getElementById("welcome-screen");
 const gameContainer = document.getElementById("game-container");
@@ -74,4 +76,5 @@ document.querySelector("#reset-btn").addEventListener("click", () => {
   compScorePara.innerText = 0;
   msg.innerText = "Play your move";
   msg.style.backgroundColor = "#081b31";
+});
 });
